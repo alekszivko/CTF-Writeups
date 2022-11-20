@@ -16,8 +16,8 @@ measure the fastest bits. In our case it is 38.4 kHz which is 38400 bits per sec
 
 Check for further details the documentation on salaes website.
 
-[Using Async Serial(Analyzer)](https://support.saleae.com/protocol-analyzers/analyzer-user-guides/using-async-serial)
-[Decoding UART](https://support.saleae.com/protocol-analyzers/analyzer-user-guides/using-async-serial/decode-uart)
+![Using Async Serial(Analyzer)](https://support.saleae.com/protocol-analyzers/analyzer-user-guides/using-async-serial)
+![Decoding UART](https://support.saleae.com/protocol-analyzers/analyzer-user-guides/using-async-serial/decode-uart)
 
 
 After adding an asynchronous analyzer
@@ -29,6 +29,8 @@ and setting up our analyzer with 38400 bits/s
 ![Setup Analyzer](https://github.com/acoozi/CTF-Writeups/blob/main/SquareCTF2022/ressources/uart2-0.png)
 
 We can see in our data table view on the right side hex data and have no framing errors (Happens due to wrong settings like bitrate etc.).
+
+![data table view](https://github.com/acoozi/CTF-Writeups/blob/main/SquareCTF2022/ressources/uart3-0.png)
 
 Now we could export the data and decode the hex data ourselves. But luckily the tool contains a terminal view which already decodes it for us and gives us the flag.
 
