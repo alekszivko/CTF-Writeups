@@ -16,8 +16,8 @@ measure the fastest bits. In our case it is 38.4 kHz which is 38400 bits per sec
 
 Check for further details the documentation on salaes website.
 
-![Using Async Serial(Analyzer)](https://support.saleae.com/protocol-analyzers/analyzer-user-guides/using-async-serial)
-![Decoding UART](https://support.saleae.com/protocol-analyzers/analyzer-user-guides/using-async-serial/decode-uart)
+- [Using Async Serial(Analyzer)](https://support.saleae.com/protocol-analyzers/analyzer-user-guides/using-async-serial)
+- [Decoding UART](https://support.saleae.com/protocol-analyzers/analyzer-user-guides/using-async-serial/decode-uart)
 
 
 After adding an asynchronous analyzer
